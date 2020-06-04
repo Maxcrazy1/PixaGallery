@@ -7,10 +7,7 @@ export default class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route path={"/"}>
-            <SearcherMedia />
-          </Route>
-          <Route path={"/videos"}>
+          <Route path={"/"||'videos'}>
             <SearcherMedia />
           </Route>
         </Switch>
